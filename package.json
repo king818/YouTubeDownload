@@ -1,0 +1,20 @@
+{
+  "name": "youtubedownload",
+  "version": "1.0.0",
+  "description": "First application to strip a YouTube Video and download as mp4 or mp3 file.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C.Y. Chen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "perf_hooks": "^0.0.1",
+    "ytdl-core": "^4.11.2"
+  }
+}
